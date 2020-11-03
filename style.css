@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+nav {
+  padding-left: 6rem;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 1rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(230, 104, 95);
+  padding: 10px;
+  border: 1px solid rgb(230, 104, 95);
+  border-radius: 5px;
+}
+
+a:hover {
+  color: grey;
+  background-color: rgb(233, 137, 130);
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
