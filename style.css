@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 /* This is for MainHtml*/
 .main-nav {
@@ -219,6 +220,42 @@ body::-webkit-scrollbar-thumb {
 }
 
 .title-tr {
+  color: brown;
+  background-color: aqua;
+}
+
+/*This is for Grades*/
+
+.maingrade {
+  border: 1px solid black;
+  border-radius: 15px;
+  min-height: 80vh;
+  margin-bottom: 1rem;
+  height: auto;
+}
+
+.maingrade h2,
+.maingrade h3 {
+  padding: 1rem;
+}
+
+.topgrade-tb {
+  width: 80vw;
+  margin: 1rem;
+}
+
+.topgrade-tb td {
+  border: 1px solid black;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  max-width: 200px;
+  max-height: 3rem;
+}
+
+.titlegrade-tr {
   color: brown;
   background-color: aqua;
 }
